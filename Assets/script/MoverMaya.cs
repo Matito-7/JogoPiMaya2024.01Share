@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MoverMaya : MonoBehaviour
 {
+    public int life;
     public float Speed;
     public float ForcaPulo;
     private Rigidbody2D rig;
