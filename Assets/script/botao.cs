@@ -5,7 +5,7 @@ using UnityEngine;
 public class botao : MonoBehaviour
 {
     public static bool Pisou;
-    public GameObject porta;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +21,7 @@ public class botao : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
         if(collision.gameObject.tag == "Player" || collision.gameObject.tag == "Caixa")
         {
             Pisou = true;
