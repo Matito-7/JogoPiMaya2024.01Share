@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Caixa
   - Teleporter
+  - Ladder
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
