@@ -7,7 +7,11 @@ public class MainMenu : MonoBehaviour
 {
     public void Play()
     {
+<<<<<<< Updated upstream
         SceneManager.LoadScene(1); 
+=======
+        SceneManager.LoadScene(1);
+>>>>>>> Stashed changes
     }
 
     public void Exit()

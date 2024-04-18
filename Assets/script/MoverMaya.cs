@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class MoverMaya : MonoBehaviour
 {
@@ -8,6 +10,7 @@ public class MoverMaya : MonoBehaviour
     public float Speed;
     public float ForcaPulo;
     private Rigidbody2D rig;
+    public GameObject gameOver;
 
     // Start is called before the first frame update
     void Start()
